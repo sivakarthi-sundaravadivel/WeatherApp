@@ -26,6 +26,7 @@ class WeatherDataModel {
     var lon: Float = 0.0
     var lat: Float = 0.0
     
+    
     func updateWeatherIcon(condition: Int) -> String {
            switch (condition) {
            case 0...300 :
@@ -54,4 +55,5 @@ class WeatherDataModel {
                return "dunno"
            }
        }
+    
 }

@@ -61,9 +61,6 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
                 print(cityParams)
             }
             
-            
-            
-            
            
         }
     }
@@ -106,6 +103,12 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate {
     func updateUI(){
         cityLabel.text = weatherDataModel.name
         temLabel.text = "\(weatherDataModel.temp)º"
+        
+        weatherDataModel.weatherIconName = weatherDataModel.updateWeatherIcon(condition: weatherDataModel.condition)
+        
+        weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)!
+
+        
         
     }
 

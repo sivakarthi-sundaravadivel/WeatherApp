@@ -23,7 +23,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="wJC-9c-3vr">
                                 <rect key="frame" x="10" y="63" width="355" height="224"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloudy2" translatesAutoresizingMaskIntoConstraints="NO" id="Eyi-Pg-osQ">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dunno" translatesAutoresizingMaskIntoConstraints="NO" id="Eyi-Pg-osQ">
                                         <rect key="frame" x="113.5" y="0.0" width="128" height="128"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="128" id="G8q-eX-71T"/>
@@ -163,8 +163,8 @@
     <resources>
         <image name="Night" width="664" height="1436"/>
         <image name="cloudRefresh" width="88" height="83"/>
-        <image name="cloudy2" width="128" height="128"/>
         <image name="day" width="658" height="1432"/>
+        <image name="dunno" width="128" height="128"/>
         <image name="location" catalog="system" width="128" height="118"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
