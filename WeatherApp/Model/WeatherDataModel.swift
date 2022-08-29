@@ -13,10 +13,18 @@ class WeatherDataModel {
     let apiID = "0d7fc9d026024b3cd4a738aafc5483db"
     let apiurl = "https://api.openweathermap.org/data/2.5/weather"
     
+    let cityApiUrl = "https://api.openweathermap.org/data/2.5/weather?q="
+    
+    
+//    https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+    
     var temp: Int = 0
     var name: String = ""
     var condition: Int = 0
     var weatherIconName: String = ""
+    
+    var lon: Float = 0.0
+    var lat: Float = 0.0
     
     func updateWeatherIcon(condition: Int) -> String {
            switch (condition) {
