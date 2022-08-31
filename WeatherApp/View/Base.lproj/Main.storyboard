@@ -105,14 +105,9 @@
                                     <color key="baseForegroundColor" systemColor="labelColor"/>
                                     <color key="baseBackgroundColor" systemColor="secondarySystemBackgroundColor"/>
                                 </buttonConfiguration>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                        <real key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="cityNameButtonTapped:" destination="ysc-H9-rjX" eventType="touchUpInside" id="Tex-Im-lbq"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="7WN-BK-9yN"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ezW-34-kNd"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="chennai" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mJ2-Qt-fck" customClass="DesignableTextField" customModule="WeatherApp" customModuleProvider="target">
